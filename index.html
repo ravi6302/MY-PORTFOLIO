@@ -960,16 +960,16 @@
       var msg=document.getElementById("greeting-msg");
       var now = new Date();
       var hrs=now.getHours();
-      if (hrs >=5 && hrs<=13){
+      if (hrs >=0 && hrs<=11){
         msg.innerHTML="Good Morning"
       }
-      else if(hrs >13 && hrs<=15){
+      else if(hrs >11 && hrs<=15){
         msg.innerHTML="Good Afternoon"
       }
-        else if(hrs >15 && hrs<=20){
+        else if(hrs >15 && hrs<=18){
         msg.innerHTML="Good evening"
       }
-        else if(hrs >21 && hrs<=4){
+        else if(hrs >18 && hrs<=23){
         msg.innerHTML="Good Night"
       }
 
